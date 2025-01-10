@@ -5,14 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Page 2</title>
-    <link rel="stylesheet" crossorigin href="/goit-js-hw-10/assets/styles-DvPDDfy5.css">
+    <script type="module" crossorigin src="/goit-js-hw-10/1-timer.js"></script>
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-10/assets/vendor-D9L3Qz0t.js">
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-10/assets/styles-CTsEMFfz.css">
   </head>
   <body>
     <main>
-      <div class="container">
+      <div class="container-title-timer">
         <h1 class="main-title">Timer</h1>
         <a class="back-link" href="./index.html">Go back</a>
 
+      </div>
+
+      <input class="input-timer" type="text" id="datetime-picker" />
+      <button class="button-start" type="button" data-start>Start</button>
+
+      <div class="timer">
+        <div class="field">
+          <span class="value days" data-days>00</span>
+          <span class="label">DAYS</span>
+        </div>
+        <div class="field">
+          <span class="value hours" data-hours>00</span>
+          <span class="label">HOURS</span>
+        </div>
+        <div class="field">
+          <span class="value minutes" data-minutes>00</span>
+          <span class="label">MINUTES</span>
+        </div>
+        <div class="field">
+          <span class="value seconds" data-seconds>00</span>
+          <span class="label">SECONDS</span>
+        </div>
       </div>
     </main>
   </body>
