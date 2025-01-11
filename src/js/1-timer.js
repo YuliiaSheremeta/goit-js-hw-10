@@ -83,8 +83,8 @@ function addLeadingZero(value) {
 };
  function showAlert(message) {
     iziToast.show({
-        title: "",
-        message: message,
+        title: "Error",
+        message: Error,
         position: 'topCenter',
         timeout: 4000,
     });

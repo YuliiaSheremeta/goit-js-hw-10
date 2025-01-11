@@ -61,3 +61,30 @@
   border-radius: 8px;
   opacity: 0px;
 }
+.form{
+  text-align: left;
+  width: 360px;
+}
+.fieldset-check{
+  width: 360px;
+  margin-bottom: 24px;
+  margin-top: 16px;
+}
+.button-form{
+    width: 360px;
+    height: 40px;
+    top: 226px;
+    left: 156px;
+    padding: 8px 16px 8px 16px;
+    gap: 10px;
+    border-radius: 8px;
+    opacity: 0px;
+    background-color: #4E75FF;
+    color: #FFFFFF;
+}
+.input-form{
+  display: block;
+  margin-top: 10px;
+  width: 100%;
+
+}
