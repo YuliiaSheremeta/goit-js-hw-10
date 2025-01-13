@@ -83,10 +83,10 @@ function addLeadingZero(value) {
 };
  function showAlert(message) {
     iziToast.show({
-        title: "Error",
-        message: Error,
-        position: 'topCenter',
-        timeout: 4000,
+        title: '❌',
+        message: 'Please choose a date in the future',
+        position: 'topRight',
+        timeout: 3000,
     });
 }
 
